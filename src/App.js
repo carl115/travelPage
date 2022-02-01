@@ -5,6 +5,7 @@ import Inicio from './components/Inicio';
 import Ofertas from './components/Ofertas';
 import SobreN from './components/SobreNosotros';
 import MasInfo from './components/MasInformacion';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Ofertas/>
       <SobreN/>
       <MasInfo/>
+      <Footer/>
     </div>
   );
 }
