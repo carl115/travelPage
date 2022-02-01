@@ -4,7 +4,7 @@ import Header from './components/header';
 import Inicio from './components/Inicio';
 import Ofertas from './components/Ofertas';
 import SobreN from './components/SobreNosotros';
-
+import MasInfo from './components/MasInformacion';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Inicio/>
       <Ofertas/>
       <SobreN/>
+      <MasInfo/>
     </div>
   );
 }
