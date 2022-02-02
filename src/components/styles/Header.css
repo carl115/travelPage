@@ -9,6 +9,10 @@
     z-index: 0;
 }
 
+.Header .content {
+    z-index: 1;
+}
+
 .Header nav {
     background: #0096c7;
     width: 100%;
