@@ -1,0 +1,24 @@
+.Header {
+    background: url('../../img/pexels-asad-photo-maldives-457878.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(6px);
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+}
+
+.Header nav {
+    background: #0096c7;
+    width: 100%;
+    height: 50px;
+    padding: 14px 0;
+    z-index: 1;
+}
+
+.Header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 30px;
+}
