@@ -1,16 +1,6 @@
 .Header {
-    background: url('../../img/pexels-asad-photo-maldives-457878.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(6px);
     width: 100%;
-    height: 500px;
-    z-index: 0;
-}
-
-.Header .content {
-    z-index: 1;
+    height: 250px;
 }
 
 .Header nav {
@@ -18,6 +8,7 @@
     width: 100%;
     height: 50px;
     padding: 14px 0;
+    position: absolute;
     z-index: 1;
 }
 
@@ -25,4 +16,20 @@
     text-decoration: none;
     color: #ffffff;
     margin: 0 30px;
+}
+
+.Header .content {
+    background: url('../../img/pexels-asad-photo-maldives-457878.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+}
+
+.Header svg {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
 }
