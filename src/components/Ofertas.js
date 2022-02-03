@@ -5,8 +5,10 @@ function Oferta(props) {
     return(
         <div className="product">
             <img src={props.img} alt={props.nameImg} />
-            <p>Lorem ipsum dolor sit amet</p>
-            <p><strong>Noche </strong>$00.00</p>
+            <div className="content-text">
+                <p>Lorem ipsum dolor sit amet</p>
+                <p><strong>Noche </strong>$00.00</p>
+            </div>
         </div>
     );
 }
