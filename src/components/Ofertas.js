@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/Ofertas.css';
 
 function Oferta(props) {
     return(
