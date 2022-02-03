@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/Footer.css';
 
 function Footer() {
     return(
@@ -12,10 +13,12 @@ function Footer() {
             </div>
             <div className="content-2">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, aperiam?</p>
-                <a href="#">L</a>
-                <a href="#">L</a>
-                <a href="#">L</a>
-                <a href="#">L</a>
+                <div className="icons-socials">
+                    <a href="#">L</a>
+                    <a href="#">L</a>
+                    <a href="#">L</a>
+                    <a href="#">L</a>
+                </div>
             </div>
         </footer>
     );
