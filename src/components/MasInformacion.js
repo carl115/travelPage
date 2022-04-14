@@ -3,7 +3,7 @@ import './styles/MasInformacion.css';
 
 function MasInformacion() {
     return(
-        <div className="MasInformacion">
+        <div className="MasInformacion" id="MasInformacion">
             <div className="content-text">
                 <h2>Lorem ipsum dolor sit amet</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex maiores eos excepturi dolor suscipit placeat alias enim dolore magnam, accusantium ducimus iure natus a reiciendis adipisci ad quibusdam doloribus saepe?</p>

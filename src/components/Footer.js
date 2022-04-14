@@ -3,7 +3,7 @@ import './styles/Footer.css';
 
 function Footer() {
     return(
-        <footer className="Footer">
+        <footer className="Footer" id="Footer">
             <div className="content-1">
                 <a href="#">Lorem ipsum dolor sit.</a>
                 <a href="#">Lorem ipsum dolor sit.</a>
