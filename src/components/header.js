@@ -7,10 +7,10 @@ function Header() {
             <nav>
                 <ion-icon name="airplane"></ion-icon>
                 <div className="links">
-                    <a href="#">Inicio</a>
-                    <a href="#">Ofertas</a>
-                    <a href="#">Sobre nosotros</a>
-                    <a href="#">Mas informacion</a>
+                    <a href="#Inicio">Inicio</a>
+                    <a href="#Ofertas">Ofertas</a>
+                    <a href="#SobreNosotros">Sobre nosotros</a>
+                    <a href="#MasInformacion">Mas informacion</a>
                 </div>
             </nav>
             <div className="img-header">

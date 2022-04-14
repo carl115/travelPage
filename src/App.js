@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header/>
       <Inicio/>
-      <div className="Ofertas">
+      <div className="Ofertas" id="Ofertas">
         <Ofertas 
           img={require('./img/pexels-julius-silver-753626.jpg')} 
           nameImg={'producto1'}
