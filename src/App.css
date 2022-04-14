@@ -17,3 +17,24 @@ html {
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.App .img-waves {
+    background-image: url(./img/pexels-oliver-sjöström-1078983.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+
+.App .img-waves .waveTop {
+    position: relative;
+    top: 0;
+    transform: rotate(180deg);
+}
+
+.App .img-waves .waveBottom {
+    position: relative;
+    bottom: -96px;
+}
