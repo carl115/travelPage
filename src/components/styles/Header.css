@@ -29,8 +29,13 @@
 .Header nav .links a {
     text-transform: uppercase;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     margin: 0 20px;
+    font-weight: 600;
+}
+
+.Header nav .links a:hover {
+    border-bottom: 2px solid #fff;
 }
 
 .Header .img-header {
