@@ -4,17 +4,22 @@ import './styles/MasInformacion.css';
 function MasInformacion() {
     return(
         <div className="MasInformacion" id="MasInformacion">
-            <div className="content-text">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex maiores eos excepturi dolor suscipit placeat alias enim dolore magnam, accusantium ducimus iure natus a reiciendis adipisci ad quibusdam doloribus saepe?</p>
-                <br/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sunt nam excepturi. Officiis, voluptatem quo temporibus repellendus libero recusandae rem molestias blanditiis atque facere excepturi deserunt reiciendis accusamus, iste provident?</p>
-            </div>
-            <div className="content-img">
-                <img src={require('../img/pexels-asad-photo-maldives-457878.jpg')} alt="imagen1" />
-                <img src={require('../img/pexels-julius-silver-753626.jpg')} alt="imagen2" />
-                <img src={require('../img/pexels-oliver-sjöström-1078983.jpg')} alt="imagen3" />
-                <img src={require('../img/pexels-pixabay-237272.jpg')} alt="imagen4" />
+            <div className="presentacion">
+                <img src={require('../img/pexels-julius-silver-753626.jpg')} />
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium illo dolorum illum cumque vero, repellat reprehenderit magni sapiente sed, ipsa sunt tempore omnis ex nihil voluptatum quasi facilis perferendis! Sint iure unde nihil vero voluptates, facere hic est porro qui praesentium, rem in odio laborum dolore voluptatibus vitae dolor, culpa aut! Laboriosam beatae delectus nostrum corporis aut similique esse voluptatibus.</p>
+                <br />
+                <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, voluptate!</strong>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, provident voluptates quod officiis quo amet. Itaque, in amet nulla voluptas expedita quo fugit nam facilis facere aperiam debitis culpa excepturi.</p>
+                <br />
+                <strong>Lorem ipsum dolor sit.</strong>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eius.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eius.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eius.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eius.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eius.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eius.</li>
+                </ul>
             </div>
         </div>
     );
