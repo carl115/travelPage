@@ -18,6 +18,11 @@ html {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.App .SobreNosotros {
+    width: 100%;
+    padding: 30px 65px;
+}
+
 .App .img-waves {
     background-image: url(./img/pexels-oliver-sjöström-1078983.jpg);
     background-position: center;

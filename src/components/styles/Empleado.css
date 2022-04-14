@@ -1,0 +1,22 @@
+.Empleado {
+    width: 100%;
+    margin: 85px 0;
+    padding: 35px 70px;
+    border: 2px dashed #BEBEBE;
+}
+
+.Empleado .header-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Empleado .header-img img {
+    height: 180px;
+    border-radius: 50%;
+}
+
+.Empleado .header-img strong {
+    font-size: 25px;
+    margin-left: 40px;
+}
