@@ -1,0 +1,11 @@
+.Comentario {
+    width: 100%;
+    padding: 30px 45px;
+    text-align: center;
+    border: 2px dashed #BEBEBE;
+}
+
+.Comentario .puntos {
+    font-size: 25px;
+    color: #DEC33B;
+}
