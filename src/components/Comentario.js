@@ -3,7 +3,8 @@ import "./styles/Comentario.css";
 
 function Comentario(props) {
   return (
-    <div className="Comentario">
+    <div 
+    className="Comentario show-slider">
       <h2>Lorem ipsum dolor sit.</h2>
       <div className="puntos">
         {

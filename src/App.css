@@ -23,6 +23,27 @@ html {
     padding: 30px 65px;
 }
 
+.App .img-waves {
+    background-image: url(./img/pexels-oliver-sjöström-1078983.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+
+.App .img-waves .waveTop {
+    position: relative;
+    top: 0;
+    transform: rotate(180deg);
+}
+
+.App .img-waves .waveBottom {
+    position: relative;
+    bottom: -96px;
+}
+
 .App .Comentarios {
     width: 100%;
     height: 235px;
@@ -57,25 +78,9 @@ html {
 
 .App .Comentarios .slider .Comentario {
     position: absolute;
+    transition: all 1.5s;
 }
 
-.App .img-waves {
-    background-image: url(./img/pexels-oliver-sjöström-1078983.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-    background-attachment: fixed;
-    width: 100%;
-    height: 700px;
-}
-
-.App .img-waves .waveTop {
-    position: relative;
-    top: 0;
-    transform: rotate(180deg);
-}
-
-.App .img-waves .waveBottom {
-    position: relative;
-    bottom: -96px;
+.App .Comentarios .slider .show-slider {
+    opacity: 0;
 }

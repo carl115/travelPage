@@ -10,6 +10,15 @@ import Comentario from './components/Comentario';
 import Footer from './components/Footer';
 
 function App() {
+
+  const coment = [...document.querySelectorAll('.Comentario')];
+
+  var valorSlider = 0;
+
+  if(valorSlider == 0) {
+    coment[valorSlider].classList.remove("show-slider");
+  }
+
   return (
     <div className="App">
       <Header/>
@@ -50,14 +59,15 @@ function App() {
       </div>
       <MasInfo/>
       <div className="Comentarios">
-        <button>
+        <button id="atras">
           <ion-icon name="arrow-round-back"></ion-icon>
         </button>
         <div className="slider">
-          <Comentario className="comentario" estrella={"4.5"} />
-          <Comentario className="comentario" estrella={"2.5"} />
+          <Comentario estrella={"4.5"} />
+          <Comentario estrella={"2.5"} />
+          <Comentario estrella={"3"} />
         </div>
-        <button>
+        <button id="siguiente">
           <ion-icon name="arrow-round-forward"></ion-icon>
         </button>
       </div>
