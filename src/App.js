@@ -13,11 +13,11 @@ function App() {
 
   const coment = [...document.querySelectorAll('.Comentario')];
 
+  const totalArray = coment.length - 1;
+
   var valorSlider = 0;
 
-  if(valorSlider == 0) {
-    coment[valorSlider].classList.remove("show-slider");
-  }
+  (() => { coment[valorSlider].classList.remove('show-slider') })()
 
   return (
     <div className="App">
@@ -59,15 +59,55 @@ function App() {
       </div>
       <MasInfo/>
       <div className="Comentarios">
-        <button id="atras">
+        <button id="atras" onClick={ () => {
+          if(valorSlider == 0) {
+            coment[valorSlider].classList.add('show-slider');
+
+            valorSlider = totalArray;
+
+            coment[valorSlider].classList.remove('show-slider');
+          }
+          else {
+            coment[valorSlider].classList.add('show-slider')
+
+            valorSlider--;
+
+            coment[valorSlider].classList.remove('show-slider');
+          }
+        }
+        }>
           <ion-icon name="arrow-round-back"></ion-icon>
         </button>
         <div className="slider">
-          <Comentario estrella={"4.5"} />
+        <Comentario estrella={"0"} />
+          <Comentario estrella={"0.5"} />
+          <Comentario estrella={"1"} />
+          <Comentario estrella={"1.5"} />
+          <Comentario estrella={"2"} />
           <Comentario estrella={"2.5"} />
           <Comentario estrella={"3"} />
+          <Comentario estrella={"3.5"} />
+          <Comentario estrella={"4"} />
+          <Comentario estrella={"4.5"} />
+          <Comentario estrella={"5"} />
         </div>
-        <button id="siguiente">
+        <button id="siguiente" onClick={ ()=> {
+          if(valorSlider == totalArray) {
+            coment[valorSlider].classList.add('show-slider');
+
+            valorSlider = 0;
+
+            coment[valorSlider].classList.remove('show-slider');      
+          }
+          else {
+            coment[valorSlider].classList.add('show-slider');
+
+            valorSlider++;
+
+            coment[valorSlider].classList.remove('show-slider');
+          }
+        }
+        }>
           <ion-icon name="arrow-round-forward"></ion-icon>
         </button>
       </div>
