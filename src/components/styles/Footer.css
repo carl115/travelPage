@@ -8,19 +8,20 @@
 
 .Footer .content-1 {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
 .Footer .content-1 a {
     margin: 10px 0;
+    margin-left: 200px;
+    font-size: 18px;
     text-decoration: none;
-    color: #ffffff;
+    color: #0096c7;
 }
 
 .Footer .content-1 a:hover {
-    color: #0096c7;
+    color: #ffffff;
 }
 
 .Footer .content-2 {
@@ -32,15 +33,17 @@
 
 .Footer .content-2 p {
     margin: 30px 0;
-    color: #ffffff;
+    color: #0096c7;
 }
 
 .Footer .content-2 .icons-socials a {
     margin: 30px 20px;
+    font-size: 35px;
     text-decoration: none;
-    color: #ffffff;
+    color: #0096c7;
 }
 
 .Footer .content-2 .icons-socials a:hover {
-    color: #0096c7;
+    color: #ffffff;
+    cursor: pointer;
 }
