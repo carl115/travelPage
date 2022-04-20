@@ -3,9 +3,8 @@ import "./styles/Comentario.css";
 
 function Comentario(props) {
   return (
-    <div 
-    className="Comentario show-slider">
-      <h2>Lorem ipsum dolor sit.</h2>
+    <div className={props.mostrar}>
+      <h2>{props.nombre}</h2>
       <div className="puntos">
         {
         (() => {
@@ -138,7 +137,7 @@ function Comentario(props) {
         })()
         }
       </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ratione tempore aperiam dolorum iure voluptates delectus similique blanditiis voluptatem rerum. Magnam consequuntur molestiae impedit asperiores vero natus distinctio quam repudiandae?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur atque sed vel at ea vitae, obcaecati impedit doloremque magnam sunt quasi et ut libero distinctio quibusdam totam corporis, labore nihil.</p>
     </div>
   );
 }

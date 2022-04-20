@@ -10,14 +10,25 @@ import Comentario from './components/Comentario';
 import Footer from './components/Footer';
 
 function App() {
+  let valorSlider = 0;
 
-  const coment = [...document.querySelectorAll('.Comentario')];
+  function slide(num) {
+    const coment = [...document.querySelectorAll('.Comentario')];
 
-  const totalArray = coment.length - 1;
+    coment[valorSlider].classList.toggle("show-slider");
+    
+    if(valorSlider == 0 && num == (-1)) {
+      valorSlider = coment.length;
+    }
 
-  var valorSlider = 0;
+    valorSlider += num;
 
-  (() => { coment[valorSlider].classList.remove('show-slider') })()
+    if(valorSlider == coment.length) {
+      valorSlider = 0;
+    }
+
+    coment[valorSlider].classList.toggle("show-slider");
+  }
 
   return (
     <div className="App">
@@ -59,55 +70,27 @@ function App() {
       </div>
       <MasInfo/>
       <div className="Comentarios">
-        <button id="atras" onClick={ () => {
-          if(valorSlider == 0) {
-            coment[valorSlider].classList.add('show-slider');
-
-            valorSlider = totalArray;
-
-            coment[valorSlider].classList.remove('show-slider');
-          }
-          else {
-            coment[valorSlider].classList.add('show-slider')
-
-            valorSlider--;
-
-            coment[valorSlider].classList.remove('show-slider');
-          }
-        }
-        }>
+        <button id="atras" onClick={ () => slide(-1) }>
           <ion-icon name="arrow-round-back"></ion-icon>
         </button>
         <div className="slider">
-        <Comentario estrella={"0"} />
-          <Comentario estrella={"0.5"} />
-          <Comentario estrella={"1"} />
-          <Comentario estrella={"1.5"} />
-          <Comentario estrella={"2"} />
-          <Comentario estrella={"2.5"} />
-          <Comentario estrella={"3"} />
-          <Comentario estrella={"3.5"} />
-          <Comentario estrella={"4"} />
-          <Comentario estrella={"4.5"} />
-          <Comentario estrella={"5"} />
+          <Comentario 
+          mostrar="Comentario show-slider"
+          nombre="Edurne Alfonso" 
+          estrella="0" 
+          />
+          <Comentario 
+          mostrar="Comentario"
+          nombre="Piedad dos Santos" 
+          estrella="1" 
+          />
+          <Comentario
+          mostrar="Comentario"
+          nombre="David Gago" 
+          estrella="2" 
+          />
         </div>
-        <button id="siguiente" onClick={ ()=> {
-          if(valorSlider == totalArray) {
-            coment[valorSlider].classList.add('show-slider');
-
-            valorSlider = 0;
-
-            coment[valorSlider].classList.remove('show-slider');      
-          }
-          else {
-            coment[valorSlider].classList.add('show-slider');
-
-            valorSlider++;
-
-            coment[valorSlider].classList.remove('show-slider');
-          }
-        }
-        }>
+        <button id="siguiente" onClick={ () => slide(1) }>
           <ion-icon name="arrow-round-forward"></ion-icon>
         </button>
       </div>
