@@ -41,3 +41,13 @@
 .Inicio .content-2 p {
     margin: 20px 0;
 }
+
+@media (max-width: 850px ) {
+    .Inicio .content-1 {
+        grid-column: 1/-1;
+    }
+
+    .Inicio .content-2 {
+        display: none;
+    }
+}

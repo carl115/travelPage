@@ -101,3 +101,17 @@ html {
     opacity: 1;
     pointer-events: unset;
 }
+
+@media (max-width: 850px ) {
+    .App .SobreNosotros {
+        padding-bottom: 0;
+    }
+
+    .App .Ofertas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .App .img-waves {
+        display: none;
+    }
+}

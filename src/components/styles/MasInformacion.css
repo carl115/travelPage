@@ -20,3 +20,9 @@
 .MasInformacion .presentacion ul {
     padding: 0 0 0 50px;
 }
+
+@media (max-width: 850px ) {
+    .MasInformacion {
+        padding-top: 30px;
+    }
+}
