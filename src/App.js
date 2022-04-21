@@ -35,6 +35,7 @@ function App() {
       <Header/>
       <Inicio/>
       <div className="Ofertas" id="Ofertas">
+        <h1>Nuestras ofertas</h1>
         <Ofertas 
           img={require('./img/pexels-julius-silver-753626.jpg')} 
           nameImg={'producto1'}
@@ -61,6 +62,7 @@ function App() {
         />
       </div>
       <div className="SobreNosotros" id="SobreNosotros">
+        <h1>Sobre Nosotros</h1>
         <Empleado img={require('./img/personOne.jpg')} />
         <Empleado img={require('./img/personTwo.jpg')} />
       </div>
