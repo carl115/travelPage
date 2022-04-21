@@ -137,7 +137,7 @@ function Comentario(props) {
         })()
         }
       </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur atque sed vel at ea vitae, obcaecati impedit doloremque magnam sunt quasi et ut libero distinctio quibusdam totam corporis, labore nihil.</p>
+      <p>{props.texto}</p>
     </div>
   );
 }

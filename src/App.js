@@ -78,16 +78,55 @@ function App() {
           mostrar="Comentario show-slider"
           nombre="Edurne Alfonso" 
           estrella="0" 
+          texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur atque sed vel at ea vitae, obcaecati impedit doloremque magnam sunt quasi et ut libero distinctio quibusdam totam corporis, labore nihil."
           />
           <Comentario 
           mostrar="Comentario"
           nombre="Piedad dos Santos" 
           estrella="1" 
+          texto="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, commodi?"
           />
           <Comentario
           mostrar="Comentario"
           nombre="David Gago" 
-          estrella="2" 
+          estrella="2"
+          texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perspiciatis totam nobis quidem fugiat nesciunt suscipit exercitationem sequi doloremque corrupti?" 
+          />
+          <Comentario
+          mostrar="Comentario"
+          nombre="Jose Manuel Martorell" 
+          estrella="2.5" 
+          texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          />
+          <Comentario
+          mostrar="Comentario"
+          nombre="Maria Elena Nicolas" 
+          estrella="3" 
+          texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem reprehenderit fugit, velit quis harum porro eaque sequi itaque sapiente magnam facere possimus soluta enim culpa alias dolores unde molestias perferendis labore veniam quisquam consectetur tenetur? Inventore quidem nulla consectetur adipisci."
+          />
+          <Comentario
+          mostrar="Comentario"
+          nombre="Ayman Ojeda" 
+          estrella="3.5" 
+          texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, facere atque! Consectetur quo inventore eos deleniti. Exercitationem quae provident laborum non, modi est ullam, nesciunt veniam numquam, eum perferendis! Iusto?"
+          />
+          <Comentario
+          mostrar="Comentario"
+          nombre="Javier Gisbert" 
+          estrella="4" 
+          texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, ex eos unde animi nulla voluptas dolores harum consequatur eaque corporis culpa illum temporibus mollitia iure eum eligendi voluptate doloremque quod laudantium perspiciatis neque hic. Alias, ducimus maxime architecto veritatis, voluptatem quae numquam nisi, ipsa culpa cumque aliquid explicabo corporis cum!"
+          />
+          <Comentario
+          mostrar="Comentario"
+          nombre="Baltasar Tejero" 
+          estrella="4.5" 
+          texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ratione deserunt rerum in voluptatibus quia consectetur quibusdam commodi tempora. Consequuntur veniam explicabo animi nam magni."
+          />
+          <Comentario
+          mostrar="Comentario"
+          nombre="Beatriz San Martin" 
+          estrella="5" 
+          texto="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque numquam illum eum, commodi sint!"
           />
         </div>
         <button id="siguiente" onClick={ () => slide(1) }>
