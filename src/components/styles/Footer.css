@@ -47,3 +47,9 @@
     color: #ffffff;
     cursor: pointer;
 }
+
+@media (max-width: 850px ) {
+    .Footer .content-1 a {
+        margin-left: 100px;  
+    }
+}
