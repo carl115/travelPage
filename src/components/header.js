@@ -22,11 +22,21 @@ function Header() {
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#ffffff" fill-opacity="1" d="M0,288L720,32L1440,288L1440,320L720,320L0,320Z"></path>
             </svg>
-            <button className="btn-menu" id="btn-menu">
+            <button className="btn-menu" id="btn-menu" onClick={
+                () => {
+                    document.querySelector('.menu-desplegable').classList.toggle('activo')
+                    document.querySelector('.btn-cerrar').classList.toggle('btn-activo')
+                }
+            }>
                 <ion-icon name="menu"></ion-icon>
             </button>
-            <div className="menu-desplegable">
-                <button className="btn-cerrar" id="btn-cerrar">
+            <div className="menu-desplegable activo">
+                <button className="btn-cerrar btn-activo" id="btn-cerrar" onClick={
+                    () => {
+                        document.querySelector('.menu-desplegable').classList.toggle('activo')
+                        document.querySelector('.btn-cerrar').classList.toggle('btn-activo')
+                    }
+                }>
                     <ion-icon name="close-circle"></ion-icon>
                 </button>
                 <ul>
