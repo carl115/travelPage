@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/travelPage/static/css/main.79b0f0ca.css",
-    "main.js": "/travelPage/static/js/main.399059ee.js",
+    "main.css": "/travelPage/static/css/main.7d42d84f.css",
+    "main.js": "/travelPage/static/js/main.4e45a857.js",
     "static/js/787.e1b95528.chunk.js": "/travelPage/static/js/787.e1b95528.chunk.js",
     "static/media/pexels-asad-photo-maldives-1450340.jpg": "/travelPage/static/media/pexels-asad-photo-maldives-1450340.5c4a2787cb2cec8ca382.jpg",
     "static/media/pexels-pixabay-237272.jpg": "/travelPage/static/media/pexels-pixabay-237272.0fb48860362f23b92819.jpg",
@@ -14,12 +14,12 @@
     "static/media/personOne.jpg": "/travelPage/static/media/personOne.63aa49a85a45d357e1d7.jpg",
     "static/media/personTwo.jpg": "/travelPage/static/media/personTwo.f548098aefad18c03818.jpg",
     "index.html": "/travelPage/index.html",
-    "main.79b0f0ca.css.map": "/travelPage/static/css/main.79b0f0ca.css.map",
-    "main.399059ee.js.map": "/travelPage/static/js/main.399059ee.js.map",
+    "main.7d42d84f.css.map": "/travelPage/static/css/main.7d42d84f.css.map",
+    "main.4e45a857.js.map": "/travelPage/static/js/main.4e45a857.js.map",
     "787.e1b95528.chunk.js.map": "/travelPage/static/js/787.e1b95528.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79b0f0ca.css",
-    "static/js/main.399059ee.js"
+    "static/css/main.7d42d84f.css",
+    "static/js/main.4e45a857.js"
   ]
 }
