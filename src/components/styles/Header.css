@@ -141,6 +141,25 @@
     }
 }
 
+@media (max-width: 768px) {
+    .Header {
+        height: 480px;
+    }
+
+    .Header .img-header {
+        height: 100%;
+    }
+
+    .Header .content {
+        font-size: 20px;
+        top: 220px;
+    }
+
+    .Header svg {
+        bottom: 168px;
+    }
+}
+
 @media (max-width: 450px) {
     .Header nav {
         position: fixed;

@@ -42,6 +42,16 @@
     margin: 20px 0;
 }
 
+@media (max-width: 768px) {
+    .Inicio .content-1 {
+        grid-column: 1/-1;
+    }
+
+    .Inicio .content-2 {
+        display: none;
+    }
+}
+
 @media (max-width: 450px ) {
     .Inicio {
         margin-bottom: 150px;

@@ -27,6 +27,12 @@
     }
 }
 
+@media (max-width: 768px) {
+    .MasInformacion {
+        padding: 50px 40px;
+    }
+}
+
 @media (max-width: 450px ) {
     .MasInformacion {
         padding: 90px 30px;
