@@ -26,3 +26,15 @@
         padding-top: 30px;
     }
 }
+
+@media (max-width: 450px ) {
+    .MasInformacion {
+        padding: 90px 30px;
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .MasInformacion .presentacion ul li {
+        margin: 7px 0;
+    }
+}

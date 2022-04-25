@@ -115,3 +115,34 @@ html {
         display: none;
     }
 }
+
+@media (max-width: 450px ) {
+    .App .Ofertas {
+        grid-template-columns: 1fr;
+    }
+
+    .App .Comentarios {
+        margin: 100px 0;
+        padding: 0 20px;
+    }
+
+    .App .Comentarios button {
+        display: none;
+    }
+
+    .App .Comentarios .slider {
+        width: 26em;
+        overflow: auto;
+        display: block;
+        justify-content: flex-start;
+        position: static;
+        border: 1px solid #000;
+    }
+
+    .App .Comentarios .slider .Comentario {
+        width: 100%;
+        display: block;
+        position: static;
+        opacity: 1;
+    }
+}

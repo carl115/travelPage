@@ -51,3 +51,19 @@
         display: none;
     }
 }
+
+@media (max-width: 450px ) {
+    .Inicio {
+        margin-bottom: 150px;
+    }
+
+    .Inicio .content-1 img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .Inicio .content-1 p {
+        padding: 0 30px;
+        text-align: center;
+    }
+}

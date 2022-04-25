@@ -20,3 +20,17 @@
     font-size: 25px;
     margin-left: 40px;
 }
+
+@media (max-width: 450px) {
+    .Empleado {
+        padding: 35px 40px;
+    }
+
+    .Empleado .header-img {
+        flex-direction: column;
+    }
+
+    .Empleado .header-img img {
+        height: 130px;
+    }
+}

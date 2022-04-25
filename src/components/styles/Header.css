@@ -75,7 +75,7 @@
     justify-content: center;
     position: fixed;
     top: 5px;
-    right: 170px;
+    right: 40px;
     z-index: 10;
 }
 
@@ -83,6 +83,7 @@
     background: #0096c7;
     width: 65%;
     min-height: 100vh;
+    display: none;
     position: fixed;
     top: 0;
     right: -500px;
@@ -131,5 +132,32 @@
 @media (max-width: 850px ) {
     .Header svg {
         bottom: 185px;
+    }
+}
+
+@media (max-width: 450px) {
+    .Header nav {
+        position: fixed;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+        z-index: 10;
+    }
+
+    .Header nav .links {
+        display: none;
+    }
+
+    .Header .content {
+        font-size: 15px;
+        position: absolute;
+        top: 230px;
+        left: 25px;
+    }
+
+    .Header svg {
+        bottom: 97px;
+    }
+
+    .Header .btn-menu {
+        display: flex;
     }
 }
