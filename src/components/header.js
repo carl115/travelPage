@@ -30,8 +30,8 @@ function Header() {
             }>
                 <ion-icon name="menu"></ion-icon>
             </button>
-            <div className="menu-desplegable activo">
-                <button className="btn-cerrar btn-activo" id="btn-cerrar" onClick={
+            <div className="menu-desplegable">
+                <button className="btn-cerrar" id="btn-cerrar" onClick={
                     () => {
                         document.querySelector('.menu-desplegable').classList.toggle('activo')
                         document.querySelector('.btn-cerrar').classList.toggle('btn-activo')
