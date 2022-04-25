@@ -40,6 +40,7 @@ html {
 
 .App .img-waves {
     background-image: url(./img/pexels-oliver-sjöström-1078983.jpg);
+    position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -49,14 +50,14 @@ html {
 }
 
 .App .img-waves .waveTop {
-    position: relative;
+    position: absolute;
     top: 0;
     transform: rotate(180deg);
 }
 
 .App .img-waves .waveBottom {
-    position: relative;
-    bottom: -96px;
+    position: absolute;
+    bottom: 0;
 }
 
 .App .Comentarios {
@@ -102,17 +103,9 @@ html {
     pointer-events: unset;
 }
 
-@media (max-width: 850px ) {
+@media (max-width: 1024px ) {
     .App .SobreNosotros {
         padding-bottom: 0;
-    }
-
-    .App .Ofertas {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .App .img-waves {
-        display: none;
     }
 }
 
