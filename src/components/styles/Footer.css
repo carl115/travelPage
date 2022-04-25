@@ -79,3 +79,13 @@
         padding: 0 30px;
     }
 }
+
+@media (max-width: 320px) {
+    .Footer .content-2 .icons-socials a {
+        margin: 0 10px;
+    }
+
+    .Footer .content-1 {
+        margin-top: 15px;
+    }
+}

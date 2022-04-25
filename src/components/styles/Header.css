@@ -85,7 +85,7 @@
     min-height: 100vh;
     position: fixed;
     top: 0;
-    right: -500px;
+    right: -936px;
     opacity: 0.9;
     transition: all 800ms;
     z-index: 10;
@@ -198,5 +198,15 @@
 
     .Header .btn-menu {
         display: flex;
+    }
+}
+
+@media (max-width: 320px) {
+    .Header .content {
+        left: 13px
+    }
+
+    .Header svg {
+        bottom: 67px;
     }
 }

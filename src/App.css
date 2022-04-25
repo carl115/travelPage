@@ -153,3 +153,13 @@ html {
         opacity: 1;
     }
 }
+
+@media (max-width: 320px) {
+    .App .Ofertas h1 {
+        font-size: 25px;
+    }
+
+    .App .SobreNosotros h1 {
+        font-size: 25px;
+    }
+}

@@ -67,3 +67,9 @@
         text-align: center;
     }
 }
+
+@media (max-width: 320px ) {
+    .Inicio {
+        padding: 0 10px;
+    }
+}

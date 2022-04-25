@@ -44,3 +44,9 @@
         margin: 7px 0;
     }
 }
+
+@media (max-width: 320px) {
+    .MasInformacion h1 {
+        font-size: 25px;
+    }
+}
