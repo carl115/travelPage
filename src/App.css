@@ -103,6 +103,14 @@ html {
     pointer-events: unset;
 }
 
+.App .copy {
+    background: #000000;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+}
+
 @media (max-width: 1024px ) {
     .App .SobreNosotros {
         padding-bottom: 0;

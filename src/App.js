@@ -136,6 +136,9 @@ function App() {
         </button>
       </div>
       <Footer/>
+      <div className="copy">
+        &copy;Creado por carl115
+      </div>
     </div>
   );
 }
