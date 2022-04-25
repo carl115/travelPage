@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/travelPage/static/css/main.18f098e8.css",
+    "main.css": "/travelPage/static/css/main.55c7ce14.css",
     "main.js": "/travelPage/static/js/main.eaf662cd.js",
     "static/js/787.e1b95528.chunk.js": "/travelPage/static/js/787.e1b95528.chunk.js",
     "static/media/pexels-asad-photo-maldives-1450340.jpg": "/travelPage/static/media/pexels-asad-photo-maldives-1450340.5c4a2787cb2cec8ca382.jpg",
@@ -14,12 +14,12 @@
     "static/media/personOne.jpg": "/travelPage/static/media/personOne.63aa49a85a45d357e1d7.jpg",
     "static/media/personTwo.jpg": "/travelPage/static/media/personTwo.f548098aefad18c03818.jpg",
     "index.html": "/travelPage/index.html",
-    "main.18f098e8.css.map": "/travelPage/static/css/main.18f098e8.css.map",
+    "main.55c7ce14.css.map": "/travelPage/static/css/main.55c7ce14.css.map",
     "main.eaf662cd.js.map": "/travelPage/static/js/main.eaf662cd.js.map",
     "787.e1b95528.chunk.js.map": "/travelPage/static/js/787.e1b95528.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18f098e8.css",
+    "static/css/main.55c7ce14.css",
     "static/js/main.eaf662cd.js"
   ]
 }
