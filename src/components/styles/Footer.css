@@ -62,16 +62,11 @@
 
 @media (max-width: 425px) {
     .Footer {
-        height: 400px;
+        height: 230px;
     }
 
     .Footer .content-1 {
-        grid-column: 1/-1;
-        text-align: center;
-    }
-
-    .Footer .content-1 a {
-        margin: 10px 0;
+        display: none;
     }
 
     .Footer .content-2 {
