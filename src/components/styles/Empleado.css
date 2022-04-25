@@ -21,7 +21,7 @@
     margin-left: 40px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 425px) {
     .Empleado {
         padding: 35px 40px;
     }

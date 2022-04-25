@@ -119,9 +119,13 @@ html {
     }
 }
 
-@media (max-width: 450px ) {
+@media (max-width: 425px ) {
     .App .Ofertas {
         grid-template-columns: 1fr;
+    }
+
+    .App .SobreNosotros {
+        padding: 0 20px;
     }
 
     .App .Comentarios {
@@ -139,11 +143,11 @@ html {
         display: block;
         justify-content: flex-start;
         position: static;
-        border: 1px solid #000;
     }
 
     .App .Comentarios .slider .Comentario {
         width: 100%;
+        margin: 10px 0;
         display: block;
         position: static;
         opacity: 1;

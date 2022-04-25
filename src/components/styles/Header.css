@@ -160,7 +160,11 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 425px) {
+    .Header {
+        height: 330px;
+    }
+
     .Header nav {
         position: fixed;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
@@ -172,14 +176,13 @@
     }
 
     .Header .content {
-        font-size: 15px;
-        position: absolute;
-        top: 230px;
-        left: 25px;
+        font-size: 13px;
+        top: 130px;
+        left: 30px
     }
 
     .Header svg {
-        bottom: 97px;
+        bottom: 90px;
     }
 
     .Header .btn-menu {
